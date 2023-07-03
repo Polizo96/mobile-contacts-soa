@@ -7,6 +7,12 @@ public class MobileContactDTO {
 
     public MobileContactDTO() {}
 
+    public MobileContactDTO(long id, UserDetailsDTO userDetails, String phoneNumber) {
+        this.id = id;
+        this.userDetails = userDetails;
+        this.phoneNumber = phoneNumber;
+    }
+
     public long getId() {
         return id;
     }
